@@ -1,0 +1,66 @@
+<html>
+<head>
+</head>
+<body>
+<body bgcolor="#CCCC99">
+<center>
+<br>
+<table>
+<table border="10" bgcolor="#CCCCFF">
+
+	<tr align="center">
+		<td colspan="7"><b> PLAN LEKCJI </b></td>
+	</tr>
+	<tr align="center">
+		<td><b> godzina </b></td>	
+		<td><b> poniedzialek </b></td>
+		<td><b> wtorek </b></td>
+		<td><b> sroda </b></td>
+		<td><b> czwartek </b></td>
+		<td><b> piatek </b></td>
+		<td rowspan="6"> <img src="bananynie.jpg" height="320" width="300"> </td>
+	</tr>
+	<tr align="center">
+		<td><b> 8:00 </b></td>
+		<td> matematyka </td>
+		<td> - </td>
+		<td> - </td>
+		<td> geografia </td>
+		<td> matematyka </td>
+	</tr>
+	<tr align="center">	
+		<td><b> 8:45 </b></td>
+		<td> polski </td>
+		<td> matematyka </td>
+		<td> - </td>
+		<td> geografia </td>
+		<td> angielski </td>
+	</tr>
+	<tr align="center">
+		<td><b> 9:30 </b></td>
+		<td> angielski </td>
+		<td> chemia </td>
+		<td> angielski </td>
+		<td> polski </td>
+		<td> geografia </td>
+	</tr>
+	<tr align="center">
+		<td><b> 10:20 </b></td>
+		<td> geografia </td>
+		<td> biologia </td>
+		<td> wf </td>
+		<td> chemia </td>
+		<td> fizyka </td>
+	</tr>
+	<tr align="center">
+		<td><b> 11:10 </b></td>
+		<td> wf </td>
+		<td> niemiecki </td>
+		<td> historia </td>
+		<td> geografia </td>
+		<td> matematyka </td>
+	</tr>
+	
+</table>
+</body>
+</html>
