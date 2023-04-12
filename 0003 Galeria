@@ -1,0 +1,47 @@
+<head>
+<link rel="stylesheet" href="galeria.css" />
+</head>
+<body>
+<div class="css_anchor_gallery">
+            <ul class="pictures_">
+                <li id="z1">
+                    <img src="img/articles/css_gallery/01_droga_na_sniezke.jpg" alt="Zdjęcie 1" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </li>
+                <li id="z2">
+                    <img src="img/articles/css_gallery/02_pszenica.jpg" alt="Zdjęcie 2" />
+                    <p>
+                    Nullam pulvinar orci quis mi aliquam, sit amet finibus nisi imperdiet.
+                    </p>
+                </li>
+                <li id="z3">
+                    <img src="img/articles/css_gallery/03_potok.jpg" alt="Zdjęcie 3" />
+                    <p>
+                    Donec varius, felis sit amet congue varius, tellus libero facilisis nibh, eget interdum dui mauris ac neque.
+                    </p>
+                </li>
+                <li id="z4">
+                    <img src="img/articles/css_gallery/04_potok2.jpg" alt="Zdjęcie 4" />
+                    <p>
+                    Vestibulum vitae dignissim felis.
+                    </p>
+                </li>
+                <li id="z5">
+                    <img src="img/articles/css_gallery/05_gory.jpg" alt="Zdjęcie 5" />
+                    <p>
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    </p>
+                </li>
+            </ul>
+
+            <ul class="thumbnails_">
+                 <li><a href="#z1"><img src="img/articles/css_gallery_mini/01_droga_na_sniezke.jpg" alt="Miniatura 1" /></a></li>
+                 <li><a href="#z2"><img src="img/articles/css_gallery_mini/02_pszenica.jpg" alt="Miniatura 2" /></a></li>
+                 <li><a href="#z3"><img src="img/articles/css_gallery_mini/03_potok.jpg" alt="Miniatura 3" /></a></li>
+                 <li><a href="#z4"><img src="img/articles/css_gallery_mini/04_potok2.jpg" alt="Miniatura 4" /></a></li>
+                 <li><a href="#z5"><img src="img/articles/css_gallery_mini/05_gory.jpg" alt="Miniatura 5" /></a></li>
+            </ul>
+        </div>
+</body>
