@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="UTF8">
+
+<title> CANVAS </title>
+
+<script src="skrypt/skrypt.js"></script>
+<link rel="stylesheet" href="style/style.css" />
+
+</head>
+
+<body onload="x()">
+<div id="main">
+
+<div id="napis">
+<p>Pomaluj mój świat</p>
+</div>
+
+
+<div id="formularz">
+<form>
+
+
+
+NIEBO: kolor 1  <select id="niebo1" onchange="x()"  >
+                <option>White</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option> 
+				<option>Black</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>Purple</option>
+				<option>Magenta</option>
+                </select>
+    
+kolor 2 <select id="niebo2" onchange="x()"  >
+                 <option>White</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Black</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>Purple</option>
+				<option>Magenta</option>
+                </select>
+
+    
+Księżyc: Typ <select id="mstyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="mkol" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option>
+                </select>
+    <br>
+    
+Trawa: Typ <select id="grastyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="graskolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option> 
+                </select>   
+
+    
+Dom: Typ <select id="hstyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="hkolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option> 
+                </select>   
+    <br>
+    
+    Dach: Typ <select id="dstyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="dkolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option>  
+                </select>   
+
+    
+    Okna: Typ <select id="wstyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="wkolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option>
+                </select>   
+    <br>
+    
+    Drzwi: Typ <select id="dostyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="dokolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option> 
+                </select>   
+  
+    
+      Napis: Typ <select id="nstyle" onchange="x()" >
+                <option>linia</option>
+                <option>pelny</option>
+                </select>
+        kolor: <select id="nkolor" onchange="x()" >
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>White</option>
+				<option>Purple</option>
+				<option>Magenta</option> 
+                </select>
+		Podaj napis<input type="text" id="ziemniak" value="Kamil Cieślik 'Narmen Stern'" onkeyup="x()">
+    <br>
+    
+    <a href="index.html"><input type="button" value="czyść"></a>
+
+</form>
+</div>
+<hr></hr>
+<div id="canvas">
+<canvas width="800px" height="600px" id="miejsce">
+</div>
+<hr></hr>
+<div id="stopka">
+
+Patrycja Zuber © 2018
+
+</div>
+
+
+
+</canvas>
+</div>
+</body>
+
+</html>
